@@ -7,7 +7,7 @@ module.exports = {
         dsn: process.env.SENTRY_DSN,
         allowUrls: [
           'some-url.com',
-          /localhost/
+          /^webpack-internal:/
         ]
       }
     }
